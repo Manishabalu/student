@@ -29,4 +29,4 @@ if submit:
             st.write('Congratulation',name,'You are not diabetic')
         else:
             st.write(name," we are really sorry to say but it seems like you are Diabetic.")
- streamlit run predict.py
+
