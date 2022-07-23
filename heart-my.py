@@ -7,6 +7,7 @@ if datafile is not None:
    file_details = {"FileName":datafile.name,"FileType":datafile.type}
    df  = pd.read_csv(datafile)
    st.dataframe(df)
+uploaded_file = st.file_uploader('')
 
 
 
