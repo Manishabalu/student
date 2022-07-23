@@ -7,7 +7,7 @@ if datafile is not None:
    file_details = {"FileName":datafile.name,"FileType":datafile.type}
    df  = pd.read_csv(datafile)
    st.dataframe(df)
-uploaded_file = st.file_uploader('')
+uploaded_file = st.file_uploader('https://github.com/Manishabalu/student/blob/1be1151c143a1633ccff1d7463d759daaee774a6/heart_failure_clinical_records_dataset.csv')
 
 
 
