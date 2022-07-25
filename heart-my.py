@@ -6,7 +6,7 @@ from pandas import read_csv
 from pandas import datetime
     
 st.title('**HEART FAILURE PREDICTION**')
-st.markdown("**MANISHA WELCOME U TO THIS WEB APP**") 
+st.markdown("**MANISHA WELCOME YOU TO THIS WEB APP**") 
 st.write("""
          **The health care industries collect huge amounts of data that contain some hidden information, which
          is useful for making effective decisions. For providing appropriate results and making effective decisions
