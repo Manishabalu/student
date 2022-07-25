@@ -22,7 +22,7 @@ data = pd.read_csv("heart_failure_clinical_records_dataset.csv", names = column)
 st.table(data)
 
 st.header('**DATA STUDIO**')
-st.image("https://unsplash.com/s/photos/heart-disease")
+st.image("https://media.istockphoto.com/photos/heart-medical-exam-picture-id1306663325?b=1&k=20&m=1306663325&s=170667a&w=0&h=p4in-M2wMo9mBueTVWuYnX2lHL6BI9qsFDnGTrNhkk4=")
 
 
 st.write("**Thank You for your wonderful time**")
