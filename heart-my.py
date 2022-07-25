@@ -22,6 +22,7 @@ data = pd.read_csv("heart_failure_clinical_records_dataset.csv", names = column)
 st.table(data)
 
 st.header('**DATA STUDIO**')
+st.area_chart(dataframe)
 st.markdown("""
         <iframe width="600" height="600" src="https://datastudio.google.com/reporting/e0e2187f-21b5-4ebd-86b6-32fb66f40907/page/mpew" frameborder="0" style="border:0" allowfullscreen></iframe>
         """, unsafe_allow_html=True)
