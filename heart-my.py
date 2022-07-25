@@ -21,7 +21,8 @@ column = ['age','sex']
 data = pd.read_csv("heart_failure_clinical_records_dataset.csv", names = column);
 st.table(data)
 
-st.header('**DATA STUDIO**')fig = px.histogram(train, x="age", color="DEATH_EVENT", marginal="violin", hover_data=train.columns, 
+st.header('**DATA STUDIO**')
+fig = px.histogram(train, x="age", color="DEATH_EVENT", marginal="violin", hover_data=train.columns, 
                    title ="Distribution of AGE Vs DEATH_EVENT", 
                    labels={"age": "AGE"},
                    template="plotly",
