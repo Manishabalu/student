@@ -23,6 +23,8 @@ st.table(data)
 
 st.header('**DATA STUDIO**')
 st.image("https://unsplash.com/s/photos/heart-disease")
+
+
 st.write("**Thank You for your wonderful time**")
 st.write("To get the source code click on the [link]https://colab.research.google.com/drive/14YZQ2swFnimLR38cwTWnz7TezC_NOrus?usp=sharing")
 
