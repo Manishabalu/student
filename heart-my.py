@@ -4,6 +4,20 @@ import numpy as np
 import warnings
 from pandas import read_csv
 from pandas import datetime
+selected = option_menu(
+       menu_title = None ,#"Main Menu",
+       options = ["Home","Model","About"],
+       icons = ["house","robot","person"],
+       menu_icon = "menu-button",
+       default_index = 0,
+       orientation = "horizontal", 
+    )
+    
+if selected == "Home":
+    #st.title('Home')
+    with st.container():
+        st.title('Customer churn finder for telco company!')
+        st.subheader('By Anirudh :wave:
 st.title('**HEART FAILURE PREDICTION**')
 st.markdown("**MANISHA WELCOME U TO THIS WEB APP**") 
 st.write("""
