@@ -28,14 +28,7 @@ st.image("https://cdn-images-1.medium.com/max/1600/1*PkEl-8DBQa-xEft_tacXLQ.gif"
 
 st.write("**Thank You for your wonderful time**")
 st.write("To get the source code click on the [link]https://colab.research.google.com/drive/14YZQ2swFnimLR38cwTWnz7TezC_NOrus?usp=sharing")
-selected = option_menu(
-       menu_title = None ,#"Main Menu",
-       options = ["Home","Model","About"],
-       icons = ["house","robot","person"],
-       menu_icon = "menu-button",
-       default_index = 0,
-       orientation = "horizontal", 
-    )
+
 
 
 
