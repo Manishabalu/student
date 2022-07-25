@@ -13,7 +13,6 @@ selected = option_menu(
        orientation = "horizontal", 
     )
     
-if selected == "Home":
 st.title('**HEART FAILURE PREDICTION**')
 st.markdown("**MANISHA WELCOME U TO THIS WEB APP**") 
 st.write("""
