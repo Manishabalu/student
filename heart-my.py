@@ -14,10 +14,6 @@ selected = option_menu(
     )
     
 if selected == "Home":
-    #st.title('Home')
-    with st.container():
-        st.title('Customer churn finder for telco company!')
-        st.subheader('By Anirudh :wave:
 st.title('**HEART FAILURE PREDICTION**')
 st.markdown("**MANISHA WELCOME U TO THIS WEB APP**") 
 st.write("""
