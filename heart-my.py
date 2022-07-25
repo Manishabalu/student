@@ -22,6 +22,12 @@ data = pd.read_csv("heart_failure_clinical_records_dataset.csv", names = column)
 st.table(data)
 
 st.header('**DATA STUDIO**')
+[theme]
+primaryColor="#F63399"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F4F6"
+textColor="#262990"
+font="sans serif"
 fig = px.histogram(train, x="age", color="DEATH_EVENT", marginal="violin", hover_data=train.columns, 
                    title ="Distribution of AGE Vs DEATH_EVENT", 
                    labels={"age": "AGE"},
