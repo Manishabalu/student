@@ -4,10 +4,6 @@ import numpy as np
 import warnings
 from pandas import read_csv
 from pandas import datetime
-from statsmodels.tsa.stattools import adfuller
-from statsmodels.tsa.arima_model import ARIMA
-from statsmodels.tsa.stattools import acf, pacf
-
 st.title('**HEART FAILURE PREDICTION**')
 st.markdown("**MANISHA YOU TO THIS WEB APP**") 
 st.write("""
