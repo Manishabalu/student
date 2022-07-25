@@ -5,7 +5,7 @@ import warnings
 from pandas import read_csv
 from pandas import datetime
 st.title('**HEART FAILURE PREDICTION**')
-st.markdown("**MANISHA YOU TO THIS WEB APP**") 
+st.markdown("**MANISHA WELCOME U TO THIS WEB APP**") 
 st.write("""
          **The health care industries collect huge amounts of data that contain some hidden information, which
          is useful for making effective decisions. For providing appropriate results and making effective decisions
@@ -23,7 +23,7 @@ st.table(data)
 
 st.header('**DATETIME ANALYSIS**')
 dateparse = lambda dates: pd.datetime.strptime(dates, '%m/%d/%Y')
-data = pd.read_csv("heart_failure_clinical_records_dataset.csv",names = column, parse_dates=['Month'], index_col=['age'],date_parser=dateparse);
+data = pd.read_csv("Heart_failure.pdf")names = column, parse_dates=['Month'], index_col=['age'],date_parser=dateparse);
 st.line_chart(data)
 
 st.write("**Thank You**")
