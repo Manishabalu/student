@@ -22,7 +22,6 @@ data = pd.read_csv("heart_failure_clinical_records_dataset.csv", names = column)
 st.table(data)
 
 st.header('**DATA STUDIO**')
-[theme]
 primaryColor="#F63399"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#F0F4F6"
