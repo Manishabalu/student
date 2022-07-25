@@ -1,14 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pylab as plt 
-from matplotlib.pylab import rcParams
-rcParams['figure.figsize']= 15, 16
 import warnings
-warnings.filterwarnings('ignore')
 from pandas import read_csv
 from pandas import datetime
-from matplotlib import pyplot
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.arima_model import ARIMA
 from statsmodels.tsa.stattools import acf, pacf
