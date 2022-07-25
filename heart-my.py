@@ -21,10 +21,10 @@ column = ['age','sex']
 data = pd.read_csv("heart_failure_clinical_records_dataset.csv", names = column);
 st.table(data)
 
-st.header('**DATETIME ANALYSIS**')
-dateparse = lambda dates: pd.datetime.strptime(dates, '%m/%d/%Y')
-data = pd.read_csv("https://datastudio.google.com/reporting/e0e2187f-21b5-4ebd-86b6-32fb66f40907")names = column, parse_dates=['Month'], index_col=['age'],date_parser=dateparse);
-st.line_chart(data)
+st.header('**DATA STUDIO**')
+st.markdown("""
+        <iframe width="600" height="600" src="https://datastudio.google.com/reporting/e0e2187f-21b5-4ebd-86b6-32fb66f40907/page/mpew" frameborder="0" style="border:0" allowfullscreen></iframe>
+        """, unsafe_allow_html=True)
 
 st.write("**Thank You**")
 st.write("To get the source code click on the [link]https://colab.research.google.com/drive/14YZQ2swFnimLR38cwTWnz7TezC_NOrus?usp=sharing")
