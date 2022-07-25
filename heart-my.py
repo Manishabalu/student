@@ -23,7 +23,7 @@ st.table(data)
 
 st.header('**DATA STUDIO**')
 st.image("https://media.istockphoto.com/photos/heart-medical-exam-picture-id1306663325?b=1&k=20&m=1306663325&s=170667a&w=0&h=p4in-M2wMo9mBueTVWuYnX2lHL6BI9qsFDnGTrNhkk4=")
-
+st.image("https://cdn-images-1.medium.com/max/1600/1*PkEl-8DBQa-xEft_tacXLQ.gif")
 
 st.write("**Thank You for your wonderful time**")
 st.write("To get the source code click on the [link]https://colab.research.google.com/drive/14YZQ2swFnimLR38cwTWnz7TezC_NOrus?usp=sharing")
