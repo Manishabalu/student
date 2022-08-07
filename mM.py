@@ -4,7 +4,7 @@ import numpy as np
 st.title('MYY MOVIES')
 
 DATE_COLUMN = 'date/time'
-DATA_URL = ("credits.csv")
+DATA_URL = ("https://drive.google.com/file/d/1a5yKVkcD-qlbUu9noorQvEi_rubW2ZEl/view?usp=sharing")
 
 def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows)
