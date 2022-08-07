@@ -1,14 +1,14 @@
-import steamlit as st
-# import pandas library
+import streamlit as st
 import pandas as pd
+import numpy as np
+st.title('MYY MOVIES')
+streamlit run MYY_MOVIES.py
+DATE_COLUMN = 'date/time'
+DATA_URL = ("C:\Users\MANIVASH\Downloads\credits.csv.")
 
-# Get the data
-column_names = ['user_id', 'item_id', 'rating', 'timestamp']
-
-path = 'https://media.geeksforgeeks.org/wp-content/uploads/file.tsv'
-
-df = pd.read_csv(path, sep='\t', names=column_names)
-
-# Check the head of the data
-df.head()
-# Check out all the movies and their respective IDs
+def load_data(nrows):
+    data = pd.read_csv(DATA_URL, nrows=nrows)
+    lowercase = lambda x: str(x).lower()
+    data.rename(lowercase, axis='columns', inplace=True)
+    data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
+    return data
