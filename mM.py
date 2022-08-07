@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.set_style('white')
-%matplotlib inline
+matplotlib inline
 # plot graph of 'num of ratings column'
 plt.figure(figsize =(10, 4))
 
