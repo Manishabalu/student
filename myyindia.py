@@ -28,7 +28,7 @@ data = pd.read_csv("routedata1.csv");
 st.table(data)
 
 st.header('**DATA STUDIO**')
-st.image("Untitled Explorer - 11_2_22, 12_05 PM - Google Chrome 2022-11-02 12-07-29.mp4")
+st.video("Untitled Explorer - 11_2_22, 12_05 PM - Google Chrome 2022-11-02 12-07-29.mp4")
 st.image("https://s01.sgp1.digitaloceanspaces.com/large/864234-78559-fevawrfter-1515398150.jpg")
 
 st.write("**Thank You for your wonderful time**")
