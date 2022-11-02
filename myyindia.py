@@ -23,7 +23,7 @@ st.image("https://www.oneindia.com/ph-big/2018/01/bus-strike-hits-tamil-nadu_151
 
 
 st.header('**BUS DATA**')
-column = ['Route_ID','bus_detail']
+
 data = pd.read_csv("https://docs.google.com/spreadsheets/d/1ZlH4zUElwMiVcVFsEQcgFrFg3j9Jw3CI08aLpbL_1uA/edit#gid=1085305037", names = column);
 st.table(data)
 
