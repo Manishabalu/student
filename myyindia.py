@@ -23,7 +23,7 @@ st.image("https://datastudio.google.com/u/0/explorer/f5f49c6f-41e9-480b-a839-9e5
 
 
 st.header('**BUS DATA**')
-column = ['Route_ID',bus_detail'']
+column = ['Route_ID','bus_detail']
 data = pd.read_csv("https://docs.google.com/spreadsheets/d/1ZlH4zUElwMiVcVFsEQcgFrFg3j9Jw3CI08aLpbL_1uA/edit#gid=1085305037", names = column);
 st.table(data)
 
