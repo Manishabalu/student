@@ -19,7 +19,7 @@ st.write("""
          planned to introduce electric buses with financial assistance from KfW (German Development Bank) to make the public bus transport
          environment friendly in future.**
          """)
-st.image("https://datastudio.google.com/u/0/explorer/f5f49c6f-41e9-480b-a839-9e5a1d503489")
+st.image("https://drive.google.com/file/d/1-791Od0x7_HWDd-1djvLxSY5LZUoF0eu/view?usp=share_link")
 
 
 st.header('**BUS DATA**')
