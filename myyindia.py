@@ -19,7 +19,7 @@ st.write("""
          planned to introduce electric buses with financial assistance from KfW (German Development Bank) to make the public bus transport
          environment friendly in future.**
          """)
-st.image("https://drive.google.com/file/d/1-791Od0x7_HWDd-1djvLxSY5LZUoF0eu/view?usp=share_link")
+st.image("https://www.oneindia.com/ph-big/2018/01/bus-strike-hits-tamil-nadu_151525209780.jpg")
 
 
 st.header('**BUS DATA**')
@@ -28,7 +28,7 @@ data = pd.read_csv("routedata1.csv");
 st.table(data)
 
 st.header('**DATA STUDIO**')
-st.image("https://www.oneindia.com/ph-big/2018/01/bus-strike-hits-tamil-nadu_151525209780.jpg")
+st.image("")
 st.image("https://s01.sgp1.digitaloceanspaces.com/large/864234-78559-fevawrfter-1515398150.jpg")
 
 st.write("**Thank You for your wonderful time**")
